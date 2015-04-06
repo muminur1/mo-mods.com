@@ -14,6 +14,28 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+
+
+<script>
+	$( document ).ready(function() {
+ 		//scroll animation 
+		$('a[href^="#"]').on('click', function(event) {
+
+		    var target = $( $(this).attr('href') );
+
+		    if( target.length ) {
+		        event.preventDefault();
+		        $('html, body').animate({
+		            scrollTop: target.offset().top
+		        }, 1000);
+		    }
+
+		});
+	});
+</script>
+
+
 <?php wp_head(); ?>
 </head>
 

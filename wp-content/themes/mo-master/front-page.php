@@ -57,14 +57,13 @@ get_header(); ?>
 <a id="contact"></a>
 	<div class="row contact">
 		<div class="container">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-				Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Praesent egestas tristique nibh. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Praesent congue erat at massa.
+			<div class="col-sm-12 col-md-6 col-lg-6">
+				<h3>Find Me</h3>
 
-				Pellentesque posuere. Vestibulum volutpat pretium libero. Nam commodo suscipit quam. Nullam accumsan lorem in dui. Nullam vel sem.
-
-				Pellentesque ut neque. Cras dapibus. Suspendisse potenti. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Pellentesque posuere.
-
-				Maecenas egestas arcu quis ligula mattis placerat. Nunc interdum lacus sit amet orci. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-6">
+				<h3>Message Me</h3>
+				<?php echo do_shortcode('[contact-form-7 id="14" title="Message Me""]'); ?>
 			</div>
 		</div>
 	</div>
