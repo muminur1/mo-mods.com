@@ -1,10 +1,123 @@
 
 
 
+//typography
+.smoothfont {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+//header color #111111
 
 body {
+	background-color: #FFF;
 	
 }
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+
+	&.page-title {
+		font-family: 'Open Sans', sans-serif;
+
+	}
+}
+
+h1 {
+	font-size: 3.75em;
+}
+
+h2 {
+	font-size: 3em;
+}
+h3 {
+	font-size: 2.25em;
+	font-weight:800;
+}
+h4 {
+	font-size: 1.875em;
+}
+h5 {
+	font-size: 1.5em;
+	font-weight:800;
+}
+h6 {
+	font-size: 1.125em;
+}
+
+p, li  {
+	font-size: .875em;
+	color: $fontColor;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+ul {
+	&.styleless {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+a {
+	color: $linkColor;
+	@include transition(.25s);
+
+	&:hover {
+		color: $linkHover;
+		@include transition(.25s);
+	}
+}
+
+//general css stuff
+.center{
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.f_left{ float:left}
+.f_right{ float:right}
+
+.w_txt{
+	color:white;
+}
+
+//about
+.about{
+	background-color: #031e61;
+}
+//Hobbies
+.hobbies{
+	background-color: #FFF;
+}
+//resume
+.resume{
+	background-color: #031e61;
+}
+//contact
+.contact{
+	background-color: #FFF;
+}
+
+[role=banner] {
+	background: #FFF;
+}
+
+//header logo
+.site_logo{
+	padding:10px;
+	max-height: 150px;
+}
+.site_menu{
+	padding:20px;
+
+}
+
 
 @media all and (max-width:661px) {
 	
