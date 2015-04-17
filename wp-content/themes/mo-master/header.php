@@ -14,6 +14,7 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 
 
 
@@ -42,20 +43,20 @@
 <body <?php body_class(); ?>>
 	<?php do_action( 'before' ); ?>
 
-<header id="masthead" class="site-header" role="banner">
-	<div class="container">
+<header id="masthead" class="site-header banner_bg" role="banner">
+	<div class="container ">
 		<div class="row">
 			<div class="site-header-inner col-sm-12">
 
-				<div class="col-sm-12 col-md-6 col-lg-6">
-					<div class="site-branding">
+				<div class="col-sm-12 col-md-5 col-lg-5">
+					<div class="site-branding center">
 						<img class="site_logo" src="<?php bloginfo('template_directory'); ?>/img/MM-logo.png" alt="Smiley face">
 						<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 						<h4 class="site-description"><?php bloginfo( 'description' ); ?></h4> -->
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-6 site_menu">
+				<div class="col-sm-12 col-md-7 col-lg-7 site_menu">
 
 					<div class="navbar navbar-default">
 						<div class="navbar-header">
@@ -67,7 +68,7 @@
 							  <span class="icon-bar"></span>
 							</button>
 
-							<div class="collapse navbar-collapse navbar-responsive-collapse">
+							<div class="collapse navbar-collapse navbar-responsive-collapse center">
 								<ul id="main-menu" class="nav navbar-nav">
 									<li class="menu-item">
 										<a href="#about">?</a>
@@ -96,12 +97,5 @@
 	</div><!-- .container -->
 </header><!-- #masthead -->
 
-<nav class="site-navigation">
-	<div class="container">
-		<div class="row">
-			<div class="site-navigation-inner col-sm-12">
-				
-		</div>
-	</div><!-- .container -->
-</nav><!-- .site-navigation -->
+
 
