@@ -15,6 +15,9 @@
 
 				<div class="site-info">
 					<p class=""> <?php bloginfo( 'name' ); ?> &copy; <?php echo date('Y'); ?> All Rights Reserved.</p>
+					<div class="cw">
+					<a href="http://crane-west.com/"><img src="http://gwfsa.org/wp-content/themes/cw/image/cw-light.png" alt="" /></a>
+					</div>
 				</div><!-- close .site-info -->
 
 			</div>

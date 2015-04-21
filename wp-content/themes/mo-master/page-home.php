@@ -45,7 +45,7 @@
 	<a id="hobbies"></a>
 		<div class="row hobbies">
 			<div class="container">
-				<div class="col-sm-12 col-md-12 col-lg-12">
+				<div class="col-sm-12 col-md-12 col-lg-12 w_txt">
 					<?
 						//adjusting the query
 						$args = array(
@@ -119,7 +119,17 @@
 			<div class="container">
 				<div class="col-sm-12 col-md-6 col-lg-6">
 					<h3>Find Me</h3>
-
+					<h1>
+					<i class="fa fa-facebook-square"></i>
+					<i class="fa fa-github-square"></i>
+					<i class="fa fa-google-plus-square"></i>
+					<i class="fa fa-linkedin-square"></i>
+					<i class="fa fa-steam-square"></i>
+					<i class="fa fa-bitbucket-square"></i>
+					<i class="fa fa-skype"></i>
+					<i class="fa fa-apple"></i>
+					<i class="fa fa-twitter-square"></i>
+					</h1>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-6">
 					<h3>Message Me</h3>
@@ -130,4 +140,4 @@
 
 
 </div><!-- close .main-content -->
-<?php get_footer(); ?>
+<?php get_footer(); ?><h1 class="center"><a href="#top" id="bottom"><i class="fa fa-chevron-up o_txt"></i></a></h1>
