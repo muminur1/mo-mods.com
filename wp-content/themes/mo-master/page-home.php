@@ -9,7 +9,7 @@
 	<a id="about"></a>
 		<div class="row about">
 			<div class="container">
-				<div class="col-sm-12 col-md-12 col-lg-12 w_txt">
+				<div class="col-sm-12 col-md-12 col-lg-12 ">
 					<?
 						//adjusting the query
 						$args = array(
@@ -140,4 +140,6 @@
 
 
 </div><!-- close .main-content -->
-<?php get_footer(); ?><h1 class="center"><a href="#top" id="bottom"><i class="fa fa-chevron-up o_txt"></i></a></h1>
+<?php get_footer(); ?>
+
+<!-- <h1 class="center"><a href="#top" id="bottom"><i class="fa fa-chevron-up o_txt"></i></a></h1> -->

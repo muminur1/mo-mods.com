@@ -14,9 +14,9 @@
 			<div class="site-footer-inner col-sm-12">
 
 				<div class="site-info">
-					<p class=""> <?php bloginfo( 'name' ); ?> &copy; <?php echo date('Y'); ?> All Rights Reserved.</p>
+					<p class="footer_c"> <?php bloginfo( 'name' ); ?> &copy; <?php echo date('Y'); ?> All Rights Reserved.</p>
 					<div class="cw">
-					<a href="http://crane-west.com/"><img src="http://gwfsa.org/wp-content/themes/cw/image/cw-light.png" alt="" /></a>
+					<a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/MM-logo_footer.png" alt="" /></a>
 					</div>
 				</div><!-- close .site-info -->
 
