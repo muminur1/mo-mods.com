@@ -16,6 +16,8 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
 
 
 
@@ -30,7 +32,7 @@
 		        event.preventDefault();
 		        $('html, body').animate({
 		            scrollTop: target.offset().top
-		        }, 1000);
+		        }, 2000);
 		    }
 
 		});
@@ -72,16 +74,16 @@
 							<div class="collapse navbar-collapse navbar-responsive-collapse center">
 								<ul id="main-menu" class="nav navbar-nav">
 									<li class="menu-item">
-										<a href="#about">?</a>
+										<a href="#about" class="smoothScroll">?</a>
 									</li>
 									<li class="menu-item">
-										<a href="#hobbies">Hobbies</a>
+										<a href="#hobbies" class="smoothScroll">Hobbies</a>
 									</li>
 									<li class="menu-item">
-										<a href="#resume">Resume</a>
+										<a href="#resume" class="smoothScroll">Resume</a>
 									</li>
 									<li class="menu-item">
-										<a href="#contact">Contact</a>
+										<a href="#contact" class="smoothScroll">Contact</a>
 									</li>
 									
 								</ul>
