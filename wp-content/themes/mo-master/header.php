@@ -51,15 +51,16 @@
 		<div class="row">
 			<div class="site-header-inner col-sm-12">
 
-				<div class="col-sm-12 col-md-5 col-lg-5">
+				<div class="f_left">
 					<div class="site-branding center">
-						<img class="site_logo" src="<?php bloginfo('template_directory'); ?>/img/MM-logo.png" alt="Smiley face">
+						<img class="site_logo" src="<?php bloginfo('template_directory'); ?>/img/MM-logo-w.png" alt="Smiley face">
 						<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 						<h4 class="site-description"><?php bloginfo( 'description' ); ?></h4> -->
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-md-7 col-lg-7 site_menu">
+				<!-- <div class="col-sm-12 col-md-7 col-lg-7 site_menu"> -->
+				<div class="site_menu">
 
 					<div class="navbar navbar-default">
 						<div class="navbar-header">
@@ -73,9 +74,9 @@
 
 							<div class="collapse navbar-collapse navbar-responsive-collapse center">
 								<ul id="main-menu" class="nav navbar-nav">
-									<li class="menu-item">
+									<!-- <li class="menu-item">
 										<a href="#about" class="smoothScroll">?</a>
-									</li>
+									</li> -->
 									<li class="menu-item">
 										<a href="#hobbies" class="smoothScroll">Hobbies</a>
 									</li>
