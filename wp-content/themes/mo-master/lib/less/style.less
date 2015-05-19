@@ -156,6 +156,18 @@ input, button, select, textarea {
   border-radius: 5px;
 }
 
+.social_buttons{
+	a{
+		color: #000;
+		@include transition(.25s);
+
+	}
+	a:hover {
+		color: #2a6496;
+		@include transition(.25s);
+	}
+}
+
 //footer
 .site-info{
 	padding: 10px;
@@ -213,8 +225,8 @@ input, button, select, textarea {
 
 //header logo
 .site_logo{
-	padding:10px;
-	max-height: 100px;
+	//padding:10px;
+	max-height: 70px;
 }
 .site_menu{
 	padding:0px;
@@ -256,7 +268,7 @@ input, button, select, textarea {
 }
 .navbar {
   position: relative;
-  min-height: 30px; 
+  min-height: 40px; 
   margin-bottom: 0px;
   border: 1px solid transparent;
 }
@@ -269,11 +281,11 @@ input, button, select, textarea {
   background: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #000;
+  background-color: #FFF;
 }
 
 .navbar-default {
-	padding-top:30px;
+	padding-top:10px;
    	background-color: transparent; 
    	border-color: transparent; 
 }
