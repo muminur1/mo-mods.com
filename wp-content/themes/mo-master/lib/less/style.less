@@ -189,7 +189,10 @@ input, button, select, textarea {
 
 [role=banner] {
 	// padding: 10px;
-	background: #FFF;
+	// background: #FFF;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
 	
 }
 
@@ -250,6 +253,12 @@ input, button, select, textarea {
 	background: rgba(0, 0, 0, 0.5);
 
 
+}
+.navbar {
+  position: relative;
+  min-height: 30px; 
+  margin-bottom: 0px;
+  border: 1px solid transparent;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
